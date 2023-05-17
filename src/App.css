@@ -1,38 +1,93 @@
-.App {
-  text-align: center;
+ @import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
+  background: hsl(216,12%,8%);
+  height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.card {
+  width: 400px;
+  max-width: 90vw;
+  height: 400px;
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 1.25rem;
+  padding: 2rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.star-img-container {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  background: hsl(211, 19%, 24%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.title {
+  color: #fff;
+  margin: 2rem 0 1rem 0;
+}
+
+.text { 
+  color: hsl(217, 12%, 63%);
+  margin-bottom: 1.25rem;
+  font-size: 15px;
+  line-height: 1.3rem;
+}
+
+.rating {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  cursor: pointer;
+}
+
+.rating-container {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  background: hsl(211, 19%, 24%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: hsl(217, 12%, 63%);
+  font-weight: 700;
+}
+
+.rating-container:hover {
+  background: hsl(25, 97%, 53%);
+  color: #fff;
+}
+
+.rating-container:active {
+  color: #fff;
+  background: hsl(216, 12%, 54%);
+}
+
+.submit-btn {
+  cursor: pointer;
+  border: 0;
+  width: 100%;
+  padding: 12px 0;
+  background: hsl(25, 97%, 53%);
+  border-radius: 25px;
+  color: #fff;
+  letter-spacing: 1.5px;
+  font-family: inherit;
+  font-weight: 700;
+}
+
+.submit-btn:active {
+  color: hsl(25, 97%, 53%);
+  background: #fff;
+}
+

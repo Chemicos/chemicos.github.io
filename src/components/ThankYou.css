@@ -1,0 +1,29 @@
+.thankyou_img_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .selected {
+    width: 60%;
+    border-radius: 25px;
+    padding: 8px 12px;
+    background: hsl(211, 19%, 24%);
+    text-align: center;
+    color: hsl(25, 97%, 53%);
+    margin: 1.5rem auto;
+  }
+
+  .title_ty {
+    text-align: center;
+    color: #fff;
+    margin: 2rem 0 1rem 0;
+  }
+
+  .text_ty {
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.4rem;
+    color: hsl(217, 12%, 63%);
+  }
