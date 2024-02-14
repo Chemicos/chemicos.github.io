@@ -1,1 +1,1 @@
-#Rating component - FRONTEND MENTOR CHALLENGE
+# Rating component - FRONTEND MENTOR CHALLENGE
